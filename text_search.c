@@ -24,10 +24,7 @@ int main()
     char search_for[80];
     printf("Search for: ");
     fgets(search_for, 80, stdin);
-    // Fix to newline character added by fgets
-    if (search_for[strlen(search_for)-1] == '\n') {
-        search_for[strlen(search_for)-1] = '\0';
-    }
+    search_for[strlen(search_for)-1] = '\0';
     find_track(search_for);
     return 0;
 }
