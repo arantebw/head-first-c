@@ -20,4 +20,12 @@ while (c > 10) {                                 // check if the value of c is g
 }
 ```
 
+```c
+/* Assume name shorter than 20 chars. */     // a comment
+char ex[20];                                 // create an array of 20 characters
+puts("Enter boyfriend's name: ");            // accept a string input from the user
+scanf("%19s", ex);                           // store the string input to ex variable
+printf("Dear %s.\n\nYou're history.\n", ex); // print a message appending the user input
+```
+
 Created by [Billy Arante](http://billyarante.com)
