@@ -28,4 +28,21 @@ scanf("%19s", ex);                           // store the string input to ex var
 printf("Dear %s.\n\nYou're history.\n", ex); // print a message appending the user input
 ```
 
+```c
+char suit = 'H';          // Assign 'H' to character variable suit
+switch (suit) {           // Check what is the current value of suit
+case 'C':                 // Check if the value is 'C'
+        puts("Clubs");    // Display a text
+        break;            // Exit
+case 'D':                 // Check if the value is 'D'
+        puts("Diamonds"); // Display a text
+        break;            // Exit
+case 'H':                 // Check if the value is 'H'
+        puts("Hearts");   // Display a text
+        break;            // Exit
+default:                  // The default case
+        puts("Spades");   // Display a text
+}
+```
+
 Created by [Billy Arante](http://billyarante.com)
